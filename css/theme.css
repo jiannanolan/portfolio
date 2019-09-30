@@ -1,0 +1,150 @@
+:root {
+  --color-primary: #414142;
+  --color-secondary: #D2C93F;
+  --color-neutral-beige: #F6F2E9;
+
+  --font-primary: "Hind", sans-serif;
+  --font-secondary: "Comfortaa", cursive;
+}
+/* @utility Apply the primary typeface */
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+.font-neutral-beige {
+  color: var(--color-neutral-beige);
+}
+
+/* @utility Apply a dark background colour to an element */
+.section-dark {
+  color: var(--color-primary);
+}
+
+/* @utility Apply the brand background colour to an element */
+.section-red {
+  color: var(--color-secondary);
+}
+
+/* @utility Apply the neutral background colour to an element */
+.section-neutral {
+  color: var(--color-neutral);
+}
+
+/* @utility Apply the accent background colour to an element */
+.section-accent {
+  color: var(--color-accent);
+}
+
+.icon-label {
+  color: #fff;
+}
+
+.icon-label:hover {
+  color: var(--color-secondary);
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  color: #fff;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+h3 {
+  font-family: var(--font-primary);
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+h5 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+a {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul {
+  color: var(--color-primary);
+  font-weight: normal;
+}
+
+ol {
+  color: var(--color-primary);
+  font-weight: normal;
+}
+
+dd {
+  color: var(--color-primary);
+  font-weight: normal;
+}
+
+dt {
+  color: #fff;
+}
+
+dl {
+  color: var(--color-primary);
+  font-weight: normal;
+}
+
+cite {
+  color: var(--color-primary);
+  font-weight: normal;
+  font-style: italic;
+}
+
+blockquote {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+em {
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+strong {
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+<abbr> {
+  color: var(--color-primary);
+  font-weight: normal;
+  font-style: italic;
+}
+
+mark {
+  color: #fff;
+  background-color: var(--color-secondary);
+  font-weight: normal;
+  font-style: italic;
+}
+
+q {
+  font-style: italic;
+}

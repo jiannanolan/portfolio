@@ -1,0 +1,54 @@
+title: "Cards"
+description:
+  Cards are used to separate information in a logical way. They should be used to contain content and images pertaining to a single action or subject.
+
+patterns:
+  product:
+    title: "Product Card"
+    description:
+      This card is used to showcase product and should be on a page which features product.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+    width: "12em"
+  illustration-card-shop:
+    title: "Illustration Card: Shop"
+    description:
+      This card is used as a call to action highlighting illustrations found in a smaller grid.
+  illustration-card-fab:
+    title: "Illustration Card: Fab"
+    description:
+      This card is used as a call to action highlighting illustrations found in a smaller grid.
+  illustration-card-gems:
+    title: "Illustration Card: Gem"
+    description:
+      This card is used as a call to action highlighting illustrations found in a smaller grid.
+  product-detail:
+    title: "Product Detail Card"
+    description:
+      This card is used showcase a product and used to provide further information on a product.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+  lens-promo-card:
+    title: "All Specs Sale"
+    description:
+      This card is used to promote a 30% off sale for all lenses. This is used on the Lens Replacement page.
+  shipping:
+    title: "Shipping Card"
+    description:
+      This card is used to show services of the site though simple iconography, this is used on the products detailed page.
+  lens-promo-card-2:
+    title: "Free Lens Care"
+    description:
+      This card is used to promote free lens care. This is used on the Lens Replacement page.
+  payment-card:
+    title: "Payment Card"
+    description:
+      This card is used to demonstrate a user's payment breakdown, this is used on the checkout page.
