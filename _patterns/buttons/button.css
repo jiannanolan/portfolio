@@ -1,11 +1,9 @@
 .btn {
   color: var(--color-primary);
   background-color: transparent;
-  font-weight: 200;
 }
 
 .btn:hover {
   color: var(--color-secondary-dark);
   background-color: transparent;
-  font-weight: 600;
 }
