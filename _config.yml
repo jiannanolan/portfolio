@@ -2,4 +2,7 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Jianna Design Porfolio"
+  description:
+    Ottawa-based Graphic Designer & Illustrator,<br>Creative Thinker, Art Enthusiast & Lover Of All Things Shiny!
   font-url: "https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,400i,500,600,700,800,900"
