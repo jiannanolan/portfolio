@@ -1,6 +1,7 @@
 .btn {
   color: var(--color-primary);
   background-color: transparent;
+  border-color: red;
 }
 
 .btn:hover {
