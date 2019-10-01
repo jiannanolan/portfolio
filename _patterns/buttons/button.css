@@ -1,10 +1,11 @@
 .btn {
-  background-color: var(--color-secondary);
-  border-color: var(--color-secondary);
-  color: #fff;
+  font-weight: 200;
+  background-color: transparent;
+  color: var(--color-primary);
 }
 
 .btn:hover {
-  background-color: var(--color-accent);
-  border-color: var(--color-accent);
+  font-weight: 600;
+  background-color: transparent;
+  color: var(--color-secondary-dark);
 }
