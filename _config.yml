@@ -8,7 +8,7 @@ patternbot:
   font-url: "https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,400i,500,600,700,800,900"
   colors:
     patterns:
-      brand.logo: "--color-neutral"
+      brand.logos: "--color-neutral"
   rationales:
     typefaces.primary: Barlow was selected to to its clean and simple appearance in contrast to the many illustrative works presetned in the portfolio. It also complements the minimalistic grid and simple layout present within the site.
     colors.primary: The primary colour is a dark, ashy grey. It was selected for mainly body copy and presents high readability on white or lighter coloured backgrounds. This colour is neutral and helps ground the colour works it is surrounded by. Primary light is used an transparent overlay when the user hovers over particular works.
