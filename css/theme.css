@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #414141;
+  --color-primary-light: #7C7C7C;
+  --color-secondary: #D2C93F;
+  --color-neutral: #F6F2E9;
+
+  --font-primary: "Barlow", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
