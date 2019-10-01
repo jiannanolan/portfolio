@@ -1,9 +1,10 @@
 .btn {
-  background-color: var(--color-primary);
-  background-color: var(--color-primary);
-  color: var(--color-secondary-dark);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: #fff;
 }
 
 .btn:hover {
-  color: var(--color-secondary-dark);
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
 }
