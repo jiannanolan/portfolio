@@ -1,9 +1,7 @@
 .btn {
   color: var(--color-primary);
-  border-color: red;
 }
 
 .btn:hover {
   color: var(--color-secondary-dark);
-  border-color: var(--color-secondary-dark);
 }
