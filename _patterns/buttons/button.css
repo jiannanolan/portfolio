@@ -1,10 +1,9 @@
 .btn {
   color: var(--color-primary);
-  background-color: transparent;
   border-color: red;
 }
 
 .btn:hover {
   color: var(--color-secondary-dark);
-  background-color: transparent;
+  border-color: var(--color-secondary-dark);
 }
