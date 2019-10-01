@@ -1,0 +1,9 @@
+.btn {
+  color: var(--color-primary);
+  font-weight: normal;
+}
+
+.btn:hover {
+  color: var(--color-primary);
+  font-weight: bold;
+}
