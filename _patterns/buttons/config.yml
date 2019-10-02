@@ -11,4 +11,4 @@ patterns:
     fields:
     - name: text
       type: string
-      example: "Works"
+      example: "works"
