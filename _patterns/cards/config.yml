@@ -3,7 +3,7 @@ description:
   Cards are used as a content container. Used for wide variety of content such as images, headers, and text. Cards are a clean way of displaying information within a simplified grid.
 
 patterns:
-  basic:
+  information:
     title: "description"
     description:
       Used for writing description about the designer and works page. Primary coloured text on partned with a Secondary coloured header, this section is used expand on the details and rationale of a project and provide more detail of the designer's bio.

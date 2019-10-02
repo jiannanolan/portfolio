@@ -1,0 +1,13 @@
+title: "Navigation"
+description:
+  Navigation is used to help users locate elements within the site and provide hierarchy of information. It is also used for accessibility purposes as users can quickly jump through menus without visual indicators.
+
+  patterns:
+    section:
+      title: "Section Header"
+      description:
+        Headers are used to contain menus which help the customer navigate through the site.
+      fields:
+      - name: heading
+        type: string
+        example: "works"
