@@ -2,12 +2,16 @@ title: "Navigation"
 description:
   Navigation is used to help users locate elements within the site and provide hierarchy of information. It is also used for accessibility purposes as users can quickly jump through menus without visual indicators.
 
-  patterns:
-    section:
-      title: "Section Header"
-      description:
-        Headers are used to contain menus which help the customer navigate through the site.
-      fields:
-      - name: heading
-        type: string
-        example: "works"
+patterns:
+  main-nav:
+    title: "Main Navigation"
+    description:
+      Main navigation helps users find content within the site. This navigation is used specifically to push the page to selected section on the homepage.
+  section:
+    title: "Section Header"
+    description:
+      Headers are used to highlight menu sections which help the customer navigate through the site more easily and effective. The header is the <h2> tag.
+    fields:
+    - name: heading
+      type: string
+      example: "my works"

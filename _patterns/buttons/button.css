@@ -2,6 +2,7 @@
   background-color: transparent;
   border-color: transparent;
   color: var(--color-primary);
+  font-weight: 400;
 }
 
 .btn:hover {

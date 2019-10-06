@@ -6,6 +6,7 @@
   --color-neutral: #F6F2E9;
 
   --font-primary: "Barlow", sans-serif;
+  --font-secondary: "Poiret One", cursive;
 }
 
 html {
@@ -15,7 +16,8 @@ html {
 h2 {
   background-color: var(--color-secondary);
   color: #fff;
-  font-weight: 900;
+  font-weight: 700;
+  letter-spacing: 1px
 }
 
 h3 {
@@ -25,4 +27,16 @@ h3 {
 
 p {
   font-weight: 300;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a:hover {
+  color: var(--color-secondary-dark);
+  text-decoration: none;
+  font-weight: 800;
 }

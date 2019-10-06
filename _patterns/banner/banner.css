@@ -1,0 +1,7 @@
+.banner {
+  background-color: var(--color-neutral);
+}
+
+.name {
+  font-family: var(--font-secondary);
+}
