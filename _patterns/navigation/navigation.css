@@ -1,3 +1,10 @@
 .navigation {
   background-color: var(--color-neutral)
 }
+
+.reverse {
+  background-color: var(--color-secondary);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px
+}
