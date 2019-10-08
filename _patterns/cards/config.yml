@@ -4,9 +4,9 @@ description:
 
 patterns:
   information:
-    title: "description"
+    title: "Information Card"
     description:
-      Used for writing description about the designer and works page. Primary coloured text on partned with a Secondary coloured header, this section is used expand on the details and rationale of a project and provide more detail of the designer's bio.
+      Used for writing description about the designer and individual works. Primary coloured text on partned with a Secondary coloured header, this section is used expand on the details and rationale of a project and provide more detail of the designer's bio.
     width: "12em"
     fields:
     - name: heading
@@ -15,3 +15,7 @@ patterns:
     - name: text
       type: string
       example: "A main objective of this design was to create new packaging that is more sustainable and reduces consumer waste. Within this goal the packaging must maintain its functionality and preserve the overall freshness and quality of the product while also appeal to its target audience who values health and nutrition. This demonstrates ability to thoroughly research the brand and understand the consumers needs and frustrations by applying an innovative solution to their current packaging."
+  collage:
+    title: "Collage Card"
+    description:
+      Used on the homepage of the site, this card showcases all the works. When the box is hoverered, the user is able to see and click on the project title. All links connect to a Project page, in which viewers can see progress, detailed descriptions and the specifics of the project at hand.

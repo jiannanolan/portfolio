@@ -1,10 +1,26 @@
 .navigation {
-  background-color: var(--color-neutral)
+  background-color: var(--color-neutral);
 }
 
 .reverse {
   background-color: var(--color-secondary);
   color: #fff;
   font-weight: 700;
-  letter-spacing: 1px
+  letter-spacing: 1px;
+}
+
+.btn {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-primary);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.btn:hover {
+  font-weight: 800;
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-secondary-dark);
+  text-decoration: none;
 }

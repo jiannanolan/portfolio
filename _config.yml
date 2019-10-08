@@ -9,9 +9,10 @@ patternbot:
   colors:
     patterns:
       brand.logos: "--color-neutral"
+      icons.icons: "--color-primary"
   rationales:
     typefaces.primary: Barlow was selected due to its clean and simple appearance in contrast to the many illustrative works presented in the portfolio. It also complements the minimalistic grid and simple layout present within the site.
-    typefaces.secondary: Comfortaa was selected due to its roundness and friendly quality. It fits within the theme for creating a simple site and adds a welcoming voice to the homepage.
+    typefaces.secondary: Poiret One was selected due to its roundness and friendly quality. It fits within the theme for creating a simple site and adds a welcoming voice to the homepage.
     colors.primary: The primary colour is a dark, ashy grey. It was selected for mainly body copy and presents high readability on white or lighter coloured backgrounds. This colour is neutral and helps ground the colour works it is surrounded by. Primary light is used an transparent overlay when the user hovers over particular works.
     colors.secondary: This canary yellow was selected due to its bold and bright quality. This helps differentiate this site from others and brings a eye-catching element to the to pull users' attention. This is used for header content and the footer background. Secondary dark is used for button hovers to maintain good colour contrast and readability.
     colors.neutral: This neutral beige is used in the top banner on the main page. This colours helps integrate the illustrated icon within the site and allows the site to be responsive within different devices.
