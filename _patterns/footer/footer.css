@@ -8,9 +8,9 @@
 }
 
 icon-link {
-  color: #fff;
+  color: #blue;
 }
 
 icon-link:hover {
-  color: var(--color-primary);
+  color: #red;
 }
