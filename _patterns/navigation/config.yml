@@ -10,7 +10,7 @@ patterns:
   section:
     title: "Section Header"
     description:
-      Headers are used to highlight menu sections which help the customer navigate through the site more easily and effective. The header is the <h2> tag.
+      Headers are used to highlight menu sections which help the customer navigate through the site more easily and effective.
     fields:
     - name: heading
       type: string

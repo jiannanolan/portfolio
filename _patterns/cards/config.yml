@@ -19,3 +19,7 @@ patterns:
     title: "Collage Card"
     description:
       Used on the homepage of the site, this card showcases all the works. When the box is hoverered, the user is able to see and click on the project title. All links connect to a Project page, in which viewers can see progress, detailed descriptions and the specifics of the project at hand.
+  image:
+    title: "Image Card"
+    description:
+      Used on the both the homepage and works page of the site, this card is a placeholder for works, project sketches and designer photo to be showcased. This provides more information on the site as works can be displayed in a clear and effective manner.

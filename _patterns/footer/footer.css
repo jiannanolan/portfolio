@@ -6,3 +6,11 @@
 .y-bg {
   background-color: var(--color-secondary);
 }
+
+icon-link {
+  color: #fff;
+}
+
+icon-link:hover {
+  color: var(--color-primary);
+}
