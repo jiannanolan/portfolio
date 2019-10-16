@@ -11,6 +11,7 @@
   bottom: -4em;
   background-color: rgba(0, 0, 0, .7);
   text-shadow: 1px 1px 5px rgba(0, 0, 0, .9);
+  transition: 1s;
 }
 
 .hover-box:hover .hover-box-caption {
