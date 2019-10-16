@@ -7,10 +7,10 @@
   background-color: var(--color-secondary);
 }
 
-icon-link {
-  color: #blue;
+.icon-link {
+  color: #fff;
 }
 
-icon-link:hover {
-  color: #red;
+.icon-link:hover {
+  color: var(--color-primary);
 }

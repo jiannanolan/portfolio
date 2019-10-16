@@ -16,3 +16,12 @@ html {
 p {
   font-weight: 300;
 }
+
+mark {
+  background-color: var(--color-secondary);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
