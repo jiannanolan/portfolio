@@ -1,0 +1,6 @@
+# robotstxt.org
+
+Sitemap: http://jianna.nolan/sitemap.xml
+
+User-Agent: *
+Disallow:
