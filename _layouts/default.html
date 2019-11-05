@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>jianna.design</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,600,700,800,900|Poiret+One&display=swap" rel="stylesheet">
+</head>
+
+<ul class="skip-links">
+  <li><a href="#nav">Jump to navigation</a></li>
+  <li><a href="#main">Jump to main content</a></li>
+  <li><a href="#contentinfo">Jump to footer</a></li>
+</ul>
+
+<body>
+
+<nav role="nav" id="nav" tabindex="0">
+  {% pattern navigation/main-nav %}
+</nav>
+  {{content}}
+<footer role="contentinfo" id="contentinfo" tabindex="0">
+  {% pattern footer/footer %}
+</footer>
+
+</body>
+</html>
