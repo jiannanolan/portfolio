@@ -23,3 +23,7 @@ patterns:
     title: "Image Card"
     description:
       Used on the both the homepage and works page of the site, this card is a placeholder for works, project sketches and designer photo to be showcased. This provides more information on the site as works can be displayed in a clear and effective manner.
+  sketches:
+    title: "Progress Card"
+    description:
+      Used works page to show progress of project.

@@ -1,10 +1,21 @@
 ---
 layout: default
+titleAfter: Graphic Designer & Illustrator · Ottawa, ON
+meta: Jianna Nolan Portfolio · Graphic Designer & Illustrator · Ottawa, ON
 ---
 
 {% pattern banner/main-banner %}
 
-<main role="main" id="main" tabindex="0">
-  {% pattern navigation/section heading="my works" %}
+<main role="main" id="works" tabindex="0">
+  {% pattern navigation/section heading="works" %}
   {% pattern cards/collage %}
+  <div class="grid" id="about">
+    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push-none island">
+      <svg class="icon i-128 push-1-2"><use xlink:href="/images/icons.svg#pencil"/></svg>
+      {% pattern cards/bio heading="Hello." text="My name is Jianna Nolan, I'm multidisciplinary designer with a strong Fine Arts background. Since a young age I've always been gravitated towards art as a way to make sense of the world. After completing my Bachelor of Fine Arts from the University of Ottawa in 2017, I wanted to expand my creative horizons by tackling a field that would challenge me in new and exciting ways. It wasn't long before I fell in love with design. Focused in illustration, branding, and marketing, my unwavering dedication to create quality design is mirrored by my ambition to push envelopes and find creative solutions." %}
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 embed">
+      <img class="island-2 embed-item embed-1by1 relative" src="/images/designer.png" alt="">
+    </div>
+  </div>
 </main>

@@ -1,7 +1,12 @@
 .banner {
-  background-color: var(--color-neutral);
+  position: relative;
+  max-height: 500px;
 }
 
 .name {
   font-family: var(--font-secondary);
+}
+
+.primary {
+  color: var(--color-primary);
 }

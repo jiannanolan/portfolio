@@ -2,10 +2,20 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>jianna.design</title>
+  <title>{% if page.title %}{{page.title}} · {% endif %}Jianna Design Portfolio{% if page.titleAfter %} · {{page.titleAfter}}{% endif %} </title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="/css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,600,700,800,900|Poiret+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,600,700,800,900|Damion&display=swap" rel="stylesheet">
+  <meta name="description" content="{{page.meta}}">
+  <meta name="geo.region" content="ca-on">
+  <meta name="geo.placename" content="Ottawa">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jianna Nolan Portfolio · Graphic Designer & Illustrator · Ottawa, ON">
+  <meta property="og:url" content="https://jianna.design">
+  <meta property="og:image" content="https://jianna.design/image/designer.png">
+  <meta property="og:site_name" content="Jianna Nolan Porfolio">
+  <meta property="og:description" content="{{page.meta}}">
+  <meta property="og:locale" content="en_CA">
 </head>
 
 <ul class="skip-links">

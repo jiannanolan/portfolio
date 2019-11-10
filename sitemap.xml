@@ -6,13 +6,15 @@
 
   {% for post in site.posts %}
     {% if page.layout %}
-      {% include sitemap-entry.xml entry="post" %}
+      {% include sitemap-entry.xml entry=post %}
     {% endif %}
   {% endfor %}
 
-  {% for post in site.pages %}
+  {% for page in site.pages %}
     {% if page.layout %}
-      {% include sitemap-entry.xml entry="page" %}
+      {% unless page.url contains 'pattern-library' %}
+        {% include sitemap-entry.xml entry=page %}
+      {% endunless %}
     {% endif %}
   {% endfor %}
 

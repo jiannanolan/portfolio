@@ -1,16 +1,16 @@
 :root {
   --color-primary: #414141;
   --color-primary-light: #7C7C7C;
-  --color-secondary: #D2C93F;
-  --color-secondary-dark: #C1B834;
-  --color-neutral: #F6F2E9;
+  --color-secondary: #68a8aD;
+  --color-neutral: #fffdf8;
 
   --font-primary: "Barlow", sans-serif;
-  --font-secondary: "Poiret One", cursive;
+  --font-secondary: "Damion", cursive;
 }
 
 html {
   font-family: var(--font-primary);
+  background-color: var(--color-neutral);
 }
 
 p {
