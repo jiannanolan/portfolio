@@ -1,6 +1,6 @@
 title: "Banners"
 description:
-  Banner are used to showcase information and promote the site's content. In this case, banners are also used to provide visual interest, a pop of colour and add a quality of personality to the site.
+  Banner are used to showcase information and promote the site's content. In this case, banners are also used to provide visual interest and add a quality of personality to the site. This main banner includes an illustration of designer, designer's name and location. The background is utilizing the site's neutral colour and text above is created in the primary colour for best readability.
 
 patterns:
   main-banner:

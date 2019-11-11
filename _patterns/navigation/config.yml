@@ -6,11 +6,11 @@ patterns:
   main-nav:
     title: "Main Navigation"
     description:
-      Main navigation helps users find content within the site. This navigation is used specifically to push the page to selected section on the homepage.
+      The main navigation helps users find content within the site. This navigation is used specifically to push the page to selected section on the homepage and to navigate users back to the index when on a project page.
   section:
     title: "Section Header"
     description:
-      Headers are used to highlight menu sections which help the customer navigate through the site more easily and effective.
+      Headers are used to highlight menu sections which help the customer navigate through the site more easily and effectively.
     fields:
     - name: heading
       type: string

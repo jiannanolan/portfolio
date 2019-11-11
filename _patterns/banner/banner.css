@@ -1,6 +1,7 @@
 .banner {
   position: relative;
   max-height: 500px;
+  background-color: var(--color-neutral);
 }
 
 .name {

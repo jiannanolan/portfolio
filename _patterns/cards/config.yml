@@ -6,7 +6,7 @@ patterns:
   information:
     title: "Information Card"
     description:
-      Used for writing description about the designer and individual works. Primary coloured text on partned with a Secondary coloured header, this section is used expand on the details and rationale of a project and provide more detail of the designer's bio.
+      Used for writing description about the designer and individual works. Primary coloured text is partnered with a secondary coloured header, this section is used expand on the details and rationale of a project and provide more detail of the designer's bio.
     width: "12em"
     fields:
     - name: heading
@@ -22,8 +22,20 @@ patterns:
   image:
     title: "Image Card"
     description:
-      Used on the both the homepage and works page of the site, this card is a placeholder for works, project sketches and designer photo to be showcased. This provides more information on the site as works can be displayed in a clear and effective manner.
-  sketches:
+      Used on the both the homepage and works page of the site, this card is a placeholder for works, project sketches and the designer's photo. This provides more information on the site as works can be displayed in a clear and effective manner.
+  bio:
+    bio: "Biography Card"
+    description:
+      Used to give the designer's statement on the homepage. Includes svgs of icons representing design on pale blue backgrounds.
+    width: "12em"
+    fields:
+    - name: heading
+      type: string
+      example: "Hello."
+    - name: text
+      type: string
+      example: "My name is Jianna Nolan, I'm a multidisciplinary designer with a strong background in Fine Arts. Since a young age I've always gravitated towards art as a way to make sense of the world. After completing my Bachelor of Fine Arts from the University of Ottawa in 2017, I wanted to expand my creative horizons by tackling a field that would challenge me in new and exciting ways - the world of graphic design. It wasn't long before I fell in love with design. Focused in illustration, branding, and marketing, my unwavering dedication to create quality design is mirrored by my ambition to push the envelope and find creative solutions"
+  progress:
     title: "Progress Card"
     description:
-      Used works page to show progress of project.
+      Used on works page to show progress of project. Gives viewers more information and visuals about the work being described. These include mockups and illustrations on a pale blue background.
