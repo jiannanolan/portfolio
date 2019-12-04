@@ -11,3 +11,17 @@
   border-color: transparent;
   color: var(--color-secondary-dark);
 }
+
+.btn-big {
+  background-color: var(--color-secondary);
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn-big:hover {
+  font-weight: 800;
+  background-color: #c8cb92;
+  border-color: transparent;
+  color: #fff;
+}
