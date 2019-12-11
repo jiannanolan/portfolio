@@ -12,3 +12,12 @@ patterns:
     - name: text
       type: string
       example: "works"
+  big:
+    title: "Big"
+    description:
+      Used on 404 error page of website.
+    width: "12em"
+    fields:
+    - name: text
+      type: string
+      example: "Enter site"

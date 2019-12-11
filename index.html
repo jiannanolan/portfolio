@@ -9,8 +9,10 @@ meta: Jianna Nolan is a graphic designer & illustrator, located in Ottawa, ON.
 </header>
 
 <main role="main" id="main">
-  {% pattern navigation/section heading="works" %}
-  {% pattern cards/collage %}
+  <div id="works">
+    {% pattern navigation/section heading="works" %}
+    {% pattern cards/collage %}
+  </div>
   <div class="grid" id="about">
     <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push-none island">
       {% pattern cards/bio heading="Hello." text="My name is Jianna Nolan, I'm a multidisciplinary designer with a strong background in Fine Arts. Since a young age I've always gravitated towards art as a way to make sense of the world. After completing my Bachelor of Fine Arts from the University of Ottawa in 2017, I wanted to expand my creative horizons by tackling a field that would challenge me in new and exciting ways - the world of graphic design. It wasn't long before I fell in love with design. Focused in illustration, branding, and marketing, my unwavering dedication to create quality design is mirrored by my ambition to push the envelope and find creative solutions." %}
